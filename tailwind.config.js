@@ -1,6 +1,6 @@
 module.exports = {
   mode: 'jit',
-  purge: [
+  purge: [  // must include any file where a css class name is referenced
     './dist/**/*.html',
     './src/**/*.js',
   ],
