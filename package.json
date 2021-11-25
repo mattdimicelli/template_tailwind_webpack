@@ -1,24 +1,14 @@
 {
   "name": "stats-preview-card-component-main",
-  "version": "1.0.0",
-  "description": "![Design preview for the Stats preview card component coding challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
   "scripts": {
     "start" : "webpack-dev-server --mode=development --config webpack.config.js",
     "watch": "NODE_ENV=development webpack --watch",
     "build-prod": "webpack --mode production --config webpack.config.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mattdimicelli/stats-preview-card-component.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mattdimicelli/stats-preview-card-component/issues"
-  },
-  "homepage": "https://github.com/mattdimicelli/stats-preview-card-component#readme",
   "devDependencies": {
     "css-loader": "^6.5.0",
     "postcss": "^8.3.11",
